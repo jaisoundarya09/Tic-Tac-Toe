@@ -1,0 +1,45 @@
+.right > table td{
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+}
+
+.left > table td{
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+
+.dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #181818;
+    width: 100%;
+    color: white;
+}
+
+.mainBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    background-color: #181818;
+    color: white;
+    font-weight: 800;
+    font-size: small;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
